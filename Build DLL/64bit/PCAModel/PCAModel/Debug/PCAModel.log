@@ -1,0 +1,65 @@
+﻿Build started 2017/11/22 下午 02:08:24.
+     1>Project "D:\TestProgram\PCA\PCAModel\PCAModel\PCAModel.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\PCAModel.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PCAMODEL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\PCAModel.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PCAMODEL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\PCAModel.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt alglibinternal.cpp alglibmisc.cpp ap.cpp linalg.cpp MatrixOp.cpp PCA.cpp
+         PCA.cpp
+     1>d:\testprogram\pca\pcamodel\pcamodel\pca.h(13): warning C4005: 'PCAMODEL_EXPORTS' : macro redefinition
+                 command-line arguments :  see previous definition of 'PCAMODEL_EXPORTS'
+     1>d:\testprogram\pca\pcamodel\pcamodel\pca.cpp(105): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\testprogram\pca\pcamodel\pcamodel\pca.cpp(143): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\testprogram\pca\pcamodel\pcamodel\pca.cpp(142): warning C4101: 'dimCenter' : unreferenced local variable
+         MatrixOp.cpp
+         linalg.cpp
+         ap.cpp
+         alglibmisc.cpp
+         alglibinternal.cpp
+         Generating Code...
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D PCAMODEL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\PCAModel.dll.embed.manifest.res" Debug\PCAModel_manifest.rc 
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\TestProgram\PCA\PCAModel\Debug\PCAModel.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"PCAModel.def" /MANIFEST /ManifestFile:"Debug\PCAModel.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\TestProgram\PCA\PCAModel\Debug\PCAModel.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\TestProgram\PCA\PCAModel\Debug\PCAModel.lib" /MACHINE:X86 /DLL Debug\PCAModel.dll.embed.manifest.res
+         Debug\alglibinternal.obj
+         Debug\alglibmisc.obj
+         Debug\ap.obj
+         Debug\dllmain.obj
+         Debug\linalg.obj
+         Debug\MatrixOp.obj
+         Debug\PCA.obj
+         Debug\stdafx.obj
+     1>PCAModel.def(2): warning LNK4017: EXPORT statement not supported for the target platform; ignored
+     1>PCAModel.def(3): warning LNK4017: CPCAModel statement not supported for the target platform; ignored
+            Creating library D:\TestProgram\PCA\PCAModel\Debug\PCAModel.lib and object D:\TestProgram\PCA\PCAModel\Debug\PCAModel.exp
+       Manifest:
+         Deleting file "Debug\PCAModel.dll.embed.manifest".
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\PCAModel.dll.embed.manifest" /manifest Debug\PCAModel.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\PCAModel.dll.embed.manifest.res" Debug\PCAModel_manifest.rc 
+       LinkEmbedManifest:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\TestProgram\PCA\PCAModel\Debug\PCAModel.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"PCAModel.def" /MANIFEST /ManifestFile:"Debug\PCAModel.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\TestProgram\PCA\PCAModel\Debug\PCAModel.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\TestProgram\PCA\PCAModel\Debug\PCAModel.lib" /MACHINE:X86 /DLL Debug\PCAModel.dll.embed.manifest.res
+         Debug\alglibinternal.obj
+         Debug\alglibmisc.obj
+         Debug\ap.obj
+         Debug\dllmain.obj
+         Debug\linalg.obj
+         Debug\MatrixOp.obj
+         Debug\PCA.obj
+         Debug\stdafx.obj
+     1>PCAModel.def(2): warning LNK4017: EXPORT statement not supported for the target platform; ignored
+     1>PCAModel.def(3): warning LNK4017: CPCAModel statement not supported for the target platform; ignored
+            Creating library D:\TestProgram\PCA\PCAModel\Debug\PCAModel.lib and object D:\TestProgram\PCA\PCAModel\Debug\PCAModel.exp
+         PCAModel.vcxproj -> D:\TestProgram\PCA\PCAModel\Debug\PCAModel.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\PCAModel.unsuccessfulbuild".
+         Touching "Debug\PCAModel.lastbuildstate".
+     1>Done Building Project "D:\TestProgram\PCA\PCAModel\PCAModel\PCAModel.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.46

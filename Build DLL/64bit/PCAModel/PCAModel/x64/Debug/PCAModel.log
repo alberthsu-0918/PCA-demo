@@ -1,0 +1,22 @@
+﻿  stdafx.cpp
+  alglibinternal.cpp
+  alglibmisc.cpp
+  ap.cpp
+  linalg.cpp
+  MatrixOp.cpp
+  PCA.cpp
+c:\my application\pca demo\build dll\64bit\pcamodel\pcamodel\pca.h(13): warning C4005: 'PCAMODEL_EXPORTS': macro redefinition
+  c:\my application\pca demo\build dll\64bit\pcamodel\pcamodel\stdafx.cpp: note: see previous definition of 'PCAMODEL_EXPORTS'
+c:\my application\pca demo\build dll\64bit\pcamodel\pcamodel\pca.cpp(50): warning C4778: 'printf' : unterminated format string '%'
+c:\my application\pca demo\build dll\64bit\pcamodel\pcamodel\pca.cpp(105): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\my application\pca demo\build dll\64bit\pcamodel\pcamodel\pca.cpp(143): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\my application\pca demo\build dll\64bit\pcamodel\pcamodel\pca.cpp(142): warning C4101: 'dimCenter': unreferenced local variable
+c:\my application\pca demo\build dll\64bit\pcamodel\pcamodel\pca.cpp(280): warning C4244: '=': conversion from 'alglib::ae_int_t' to 'int', possible loss of data
+  Generating Code...
+  dllmain.cpp
+PCAModel.def(2): warning LNK4017: EXPORT statement not supported for the target platform; ignored
+PCAModel.def(3): warning LNK4017: CPCAModel statement not supported for the target platform; ignored
+     Creating library C:\My application\PCA demo\Build DLL\64bit\PCAModel\x64\Debug\PCAModel.lib and object C:\My application\PCA demo\Build DLL\64bit\PCAModel\x64\Debug\PCAModel.exp
+  PCAModel.vcxproj -> C:\My application\PCA demo\Build DLL\64bit\PCAModel\x64\Debug\PCAModel.dll
